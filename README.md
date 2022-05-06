@@ -17,4 +17,4 @@ A Differential Equation-Based model to study the size structure of lake phytopla
 
 
 
-### Related publications
+#### Related publications
