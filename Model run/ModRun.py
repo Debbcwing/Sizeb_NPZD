@@ -95,14 +95,6 @@ for i in range(numMixRgm):
     dmdt_sinu[0:364, i] = np.diff(mld_sinu[:, i])  # dmdt (364,)
     dmdt_sinu[364, i] = dmdt_sinu[0, i]
 
-# checking initial and end forcing values
-LWST_spl[0], LWST_spl[364], PAR_spl[0], PAR_spl[364]
-for i in range(numMixRgm):
-    print(mld_sinu[0, i])
-    print(mld_sinu[364, i])
-    print(dmdt_sinu[0, i])
-    print(dmdt_sinu[364, i])
-
 
 mld_sinu = np.tile(mld_sinu, (Ynum, 1))  # multiplicating physical forcing arrays
 dmdt_sinu = np.tile(dmdt_sinu, (Ynum, 1))
