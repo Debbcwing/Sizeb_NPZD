@@ -1,0 +1,8 @@
+There are two data files in the folder, 'LWST_13p_syn.csv' for Lake Surface Water Temperature (degree Celcius) and 'nSSI_13p_syn.csv' for net Surface Solar Irradiance (nSSI, W m-2).
+The data are extracted from Layden et al. (2015) using digitalization tool WebPlotDigitizer-4.2.
+
+
+References:
+Layden, A., Merchant, C., & MacCallum, S. (2015). Global climatology of surface water temperatures of large lakes by remote sensing: Global climatology of Lake Surface Water Temperatures. International Journal of Climatology, 35(15), 4464–4479. https://doi.org/10.1002/joc.4299
+
+Rohatgi, A. (2017) Web Plot Digitizer. https://automeris.io/WebPlotDigitizer
