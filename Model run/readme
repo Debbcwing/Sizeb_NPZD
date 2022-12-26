@@ -4,3 +4,4 @@ The default model structure is fixed at two zooplankton grazers feeding on multi
 All model set-up is done via the 'ModRun.py' unless one would like to change the model structure, e.g. adding number of grazers or computational settings (i.e. numerical tolerance in odeint). The size ranges of phytoplankton and zooplankton and the number of phytoplankton can be changed via the 'ModRun.py'.
 
 The model computes via the package odeint in the python library scipy.
+The default setting of the model is running with one specialist and one generalist grazer (i.e. a narrower and a broader feeding kernel respectively). One could change the setting in the model run script.
