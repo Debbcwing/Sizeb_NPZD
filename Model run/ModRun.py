@@ -4,7 +4,7 @@ import time
 import xarray as xr
 from scipy.interpolate import make_interp_spline
 
-from SizeModLogspace_clean import SizeModLogspace
+from SizebNPZD_v0 import SizeModLogspace
 
 Pnum = 150      # specify the nos of phytoplankton size groups
 Ynum = 10       # no. of modeling year
