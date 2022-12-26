@@ -15,8 +15,8 @@ wd = 'yourwd'
 os.chdir(wd)
 
 # Temperature and PAR data
-LWST = np.genfromtxt('Forcing/LWST_13p_syn.csv', delimiter=',')
-nSSI = np.genfromtxt('Forcing/nSSI_13p_syn.csv', delimiter=',')
+LWST = np.genfromtxt('/LWST_13p_syn.csv', delimiter=',')
+nSSI = np.genfromtxt('/nSSI_13p_syn.csv', delimiter=',')
 for a in range(8):  # To synchonized the initial and end forcing value
     LWST[0, a + 1] = LWST[12, a + 1]
     nSSI[0, a + 1] = nSSI[12, a + 1]
