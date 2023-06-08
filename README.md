@@ -3,15 +3,15 @@ A differential equation-based model to study the changes in the size structure o
 
 The allometric relationships considered for four eco-physiological rates in the model are:
 
-$$\mu_{max}(S_i) = \beta_{\mu_{max}}\cdot (S_i)^{\alpha_{\mu_{max}}}$$
+$$\mu_{max}(S_i^P) = \beta_{\mu_{max}}\cdot (S_i^P)^{\alpha_{\mu_{max}}}$$
 
-$$K_n(S_i) = \beta_{K_n}\cdot (S_i)^{\alpha_{K_n}}$$
+$$K_n(S_i^P) = \beta_{K_n}\cdot (S_i^P)^{\alpha_{K_n}}$$
 
-$$I_{max}(S_j) = \beta_{I_{max}}\cdot (S_j)^{\alpha_{I_{max}}}$$
+$$I_{max}(S_j^Z) = \beta_{I_{max}}\cdot (S_j^Z)^{\alpha_{I_{max}}}$$
 
-$$P_{opt}(S_i, S_j) = \beta_{P_{opt}}\cdot (S_j)^{\alpha_{P_{opt}}}$$
+$$P_{opt}(S_i^P, S_j^Z) = \beta_{P_{opt}}\cdot (S_j^Z)^{\alpha_{P_{opt}}}$$
 
-representing maximum growth rate, $\mu_{max}(S_i)$, and half-saturation for nutrient uptake, $K_n(S_i)$, for phytoplankton size class $i$, and maximum ingestion rate, $I_{max}(S_j)$, and optimal prey size, $P_{opt}(S_i, S_j)$, for zooplankton size class $j$ respectively.
+representing maximum growth rate, $\mu_{max}(S_i^P)$, and half-saturation for nutrient uptake, $K_n(S_i^P)$, for phytoplankton size class $i$, and maximum ingestion rate, $I_{max}(S_j^Z)$, and optimal prey size, $P_{opt}(S_i^P, S_j^Z)$, for zooplankton size class $j$ respectively.
 
 ## Model description
 The size-based model is adapted from the well-established Nutrient-Phytoplankton-Zooplankton-Detritus (NPZD) framework (_sensu_ Fasham et al., 1990 and Armstrong, 1994). This model consists of different size classes of phytoplankton ($P_i$) who are subject to grazing by two size classes of zooplankton ($Z_1$, $Z_2$). The phytoplankton growth is limited by light and nutrient and is dependent on temperature. 
