@@ -44,11 +44,11 @@ class SizeModLogspace:
         self.maxZ = maxZ  # max. size of Z size range
         self.numZ = numZ  # number of zooplankton size class
         self.numYears = numYears  # Number of years for model run
-        self.N0 = N0  # Initial nutrient concentrations (mmol N*m^-3)
-        self.Zsmall0 = Zsmall0  # Initial Zsmall concentration (mmol N*m^-3)
-        self.Zlarge0 = Zlarge0  # Initial Zlarge concentration (mmol N*m^-3)
-        self.D0 = D0  # Initial detritus concentration (mmol N*m^-3)
-        self.Ps0 = np.repeat(0.01, self.numP, axis=0)  # Initial P concentration (mmol N*m^-3)
+        self.N0 = N0  # Initial nutrient concentrations (µmol N L^-1)
+        self.Zsmall0 = Zsmall0  # Initial Zsmall concentration (µmol N L^-1)
+        self.Zlarge0 = Zlarge0  # Initial Zlarge concentration (µmol N L^-1)
+        self.D0 = D0  # Initial detritus concentration (µmol N L^-1)
+        self.Ps0 = np.repeat(0.01, self.numP, axis=0)  # Initial P concentration (µmol N L^-1)
         self.Pmax = Pmax  # Max photosynthesis rate
         self.Kpar = Kpar  # Water attenuation coefficient
         self.alpha = alpha  # Initial slope of P-I curve
@@ -57,7 +57,7 @@ class SizeModLogspace:
         self.Mz2 = Mz2  # Mortality from upper predators
         self.Ieff = Ieff  # Ingestion efficiency
         self.beta = beta  # Assimlation efficiency
-        self.Kp = Kp  # Phytoplankton half-saturation constant (mmol*m^-3)
+        self.Kp = Kp  # Phytoplankton half-saturation constant (µmol N L^-1)
         self.Rem = Rem  # Remineralization rate (day^-1)
         self.k = k  # Cross thermocline mixing factor (m/day)
         self.mu_alpha = mu_alpha  # Slope of allometric max. uptk rate
