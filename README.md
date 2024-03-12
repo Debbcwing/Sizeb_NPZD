@@ -18,8 +18,8 @@ The size-based model is adapted from the well-established Nutrient-Phytoplankton
 
 The model focuses on capturing size-dependent bottom-up and top-down interactions through allometric scaling relationships of phytoplankton growth and zooaplankton grazing.
 
-![Mod_schem](https://user-images.githubusercontent.com/51200142/231529567-4c4da250-f5a3-4f1a-9a3a-e27029e8188c.jpeg "Model schematics")
-
+<p align="center">
+  <img width="560" alt="Figure1_v3" src="https://github.com/Debbcwing/Sizeb_NPZD/assets/51200142/a853f676-68e2-45b4-99e0-8c42f0c4c1a6">
 
 ## How to run the model
 Running the model requires two scripts in the 'Model run' folder, the 'SizebNPZD_v0.py' and the 'ModRun.py'. The first script is for decribing the model while the second script is for running the model.
@@ -33,4 +33,7 @@ The results produced from the model are saved as a multi-dimensional array in Ne
 
 
 ## Related publications
-For more detailed model descriptions, formulations, or an application example of the model, please refer to the related publication of this model (under preparation).
+For more detailed model descriptions, formulations, or an application example of the model, please refer to the related publication of this model:
+
+To, S., E. Acevedo‐Trejos, S. Chakraborty, F. Pomati, and A. Merico. 2024. Grazing strategies determine the size composition of phytoplankton in eutrophic lakes. _Limnology & Oceanography_ 9999:1-10. doi:10.1002/lno.12538
+
